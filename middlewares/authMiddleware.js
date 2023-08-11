@@ -14,7 +14,6 @@ module.exports = async (req, res, next) => {
       return res.redirect("login");
     }
 
-    console.log("User authenticated:", user);
     next();
   } catch (error) {
     console.log("Error finding user:", error);
