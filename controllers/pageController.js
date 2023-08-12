@@ -51,7 +51,7 @@ exports.sendEmail =  async (req, res) => {
     auth: {
       // TODO: replace `user` and `pass` values from <https://forwardemail.net>
       user: "karadumanyazilim@gmail.com",
-      pass: "hcnflysbdwiuwhdw",
+      pass: "--",
     },
   });
 
