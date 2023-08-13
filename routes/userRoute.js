@@ -4,6 +4,7 @@ const authMiddleware = require("../middlewares/authMiddleware");
 const { body } = require("express-validator");
 const User = require("../models/User");
 
+
 const router = express.Router();
 
 router.route("/signup").post(
@@ -28,5 +29,6 @@ router.route("/signup").post(authController.createUser); //http://localhost:3000
 router.route("/login").post(authController.loginUser);
 router.route("/logout").get(authController.logoutUser);
 router.route("/dashboard").get(authMiddleware, authController.getDashboardPage);
+router.route("/:id").delete(authController.deleteUser);
 
 module.exports = router;

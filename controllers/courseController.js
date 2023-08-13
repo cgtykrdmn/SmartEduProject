@@ -135,12 +135,12 @@ exports.updateCourse = async (req, res) => {
     const course = await Course.findOne({
       slug: req.body.slug,
     }, req.body);
-
+    
     course.name = req.body.name;
     course.description = req.body.description;
     course.category = req.body.category;
     course.save();
-
+    
     res.redirect('/users/dashboard');
   } catch (error) {
     console.log(error)
@@ -150,4 +150,5 @@ exports.updateCourse = async (req, res) => {
     });
   }
 };
+
 
