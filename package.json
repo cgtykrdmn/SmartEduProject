@@ -4,7 +4,7 @@
   "description": "education portal",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "node app.js"
   },
   "keywords": [
     "education",
@@ -23,6 +23,7 @@
     "express-session": "^1.17.3",
     "express-validator": "^7.0.1",
     "method-override": "^3.0.0",
+    "mongodb": "3.6",
     "mongoose": "^7.4.3",
     "nodemailer": "^6.9.4",
     "slugify": "^1.6.6"
