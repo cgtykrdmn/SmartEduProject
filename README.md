@@ -17,3 +17,8 @@
 <li>MongoDB Database,</li>
 <li>Node.js Backend.</li>
 </ul>
+
+<h2> Screenshots </h2>
+
+
+<img src="https://github.com/cgtykrdmn/SmartEduProject/blob/main/public/images/Home-Page.png">
