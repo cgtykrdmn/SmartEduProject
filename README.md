@@ -21,23 +21,19 @@
 <h2> SCREENSHOTS </h2>
 
 <h3> Home Page </h3>
-![HomePage](https://github.com/cgtykrdmn/SmartEduProject/blob/main/public/images/Home-Page.png)
 
 <img src="https://github.com/cgtykrdmn/SmartEduProject/blob/main/public/images/Home-Page.png">
 
 
 <h3> Contact Page </h3>
-![ContactPage](https://github.com/cgtykrdmn/SmartEduProject/blob/main/public/images/Contact-Page.png)
 
 <img src="https://github.com/cgtykrdmn/SmartEduProject/blob/main/public/images/Contact-Page.png">
 
 <h3> Register Page </h3>
-![RegisterPage](https://github.com/cgtykrdmn/SmartEduProject/blob/main/public/images/Register-Page.png)
 
 <img src="https://github.com/cgtykrdmn/SmartEduProject/blob/main/public/images/Register-Page.png">
 
 <h3> Login Page </h3>
-![LoginPage](https://github.com/cgtykrdmn/SmartEduProject/blob/main/public/images/Login-Page.png)
 
 <img src="https://github.com/cgtykrdmn/SmartEduProject/blob/main/public/images/Login-Page.png">
 
