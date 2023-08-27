@@ -12,7 +12,7 @@ const userRoute = require("./routes/userRoute");
 const app = express();
 
 // CONNECT DB
-mongoose.connect("mongodb+srv://cgtykrdmn:krdmnyazilim24@cluster0.djx88nl.mongodb.net/smartedu-db?retryWrites=true&w=majority").then(() => {
+mongoose.connect("mongodb+srv://<usernma>:<password>@cluster0.djx88nl.mongodb.net/smartedu-db?retryWrites=true&w=majority").then(() => {
   console.log("DB Connected.");
 });
 
